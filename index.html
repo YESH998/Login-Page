@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="mainBox">
+
+            <div id="img">
+
+                <img src="pexels-pixabay-56866.jpg" alt="Rose Imgage">
+
+            </div>
+
+            <form id="myForm">
+
+                
+                <div id="loginEmail">
+                    
+                    <label for="email">Email Address</label>
+                    
+                <div class="box">
+                    <i class="fa-solid fa-envelope"></i>
+                    
+                    <input type="email" name="email" id="Email" placeholder="Username@gmamil.com">
+                </div>
+                
+            </div>
+            <span id="error" style="color: red; display: none; margin: 50px;">This field is requried.</span>
+            
+            
+            <div id="loginPassword">
+                
+                <label for="password"></label>Password
+                <div class="passwordBox">
+                    
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="Password" placeholder="..........">
+                    <!-- <i class="fa-solid fa-eye"></i> -->
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                
+            </div>
+
+            <span id="errorPassword" style="color: red; display: none; margin: 50px;">This field is requried.</span>
+            
+            <div id="login">
+
+                <label for="login"></label>
+                
+                <button id="myButton" type="submit">Login</button>
+                
+            </div>
+        </form>
+            
+            <div id="last">
+                
+                <a href="#">Signup</a>
+                
+                <a href="#">Forgot Password?</a>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
