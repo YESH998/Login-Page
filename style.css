@@ -49,6 +49,8 @@ img {
 
 input {
     border: 0px;
+    outline: none;
+    padding: 5px;
 }
 
 #login button {
